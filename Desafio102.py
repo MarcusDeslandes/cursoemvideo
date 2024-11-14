@@ -6,7 +6,6 @@ def fatorial(n, show=False):
     :return: valor do fatorial de um numero n
     """
     f = 1
-    cont = 0
     for c in range(n, 0, -1):
         if show:
             print(c, end='')

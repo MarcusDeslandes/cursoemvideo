@@ -1,0 +1,5 @@
+preço=float(input('Qual o preço do produto? R$'))
+novo= preço - (preço * 5 / 100)
+print('O produto em questão está no valor de R$ {:.2f}'.format(preço))
+print('Este produto está em promoção com 5% de desconto')
+print('O novo valor deste produto passou de R${:.2f} para R${:.2f}.'.format(preço,novo))

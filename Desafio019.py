@@ -1,0 +1,11 @@
+import random
+prof=input('Qual o seu nome, Professor(a) ?')
+print('Sorteio para selecionar um aluno para apagar o quadro do Prof(a). {}'.format(prof))
+a1=input('Qual o nome do primeiro aluno? ')
+a2=input('Qual o nome do segundo aluno? ')
+a3=input('Qual o nome do terceiro aluno? ')
+a4=input('Qual o nome do Quarto aluno? ')
+nome=(a1,a2,a3,a4)
+print('Vamos agora sortear o aluno')
+aluno= random.choice(nome)
+print('O aluno escolhido foi {}'.format(aluno))

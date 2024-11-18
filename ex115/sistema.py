@@ -9,6 +9,7 @@ while True:
         cabecalho('Opção 2')
     elif resposta == 3:
         cabecalho('Saindo do sistema ... Até logo!')
+        sleep(1)
         break
     else:
         print('\033[31mERRO! Digite uma opção válida.\033[m')

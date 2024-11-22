@@ -4,6 +4,3 @@ novo = sal + (sal * porc / 100)
 print('O seu aumento foi de {:.0f}% baseado no seu salário atual.'.format(porc))
 print()
 print('O novo salário é de\nR${:.2f}'.format(novo))
-
-
-
